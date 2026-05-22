@@ -18,5 +18,5 @@ jobs:
       - name: Deploy sang branch gh-pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: . # Deploy toàn bộ thư mục root (nơi chứa file index.html)
+          folder: Frontend_design
           branch: gh-pages # Tự động tạo và đẩy code sang branch này
